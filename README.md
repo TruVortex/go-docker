@@ -1,4 +1,4 @@
-# Mini-Docker (Go)
+# Mini-Docker
 
 Custom lightweight container runtime (namespace + chroot + cgroups) in pure Go (standard library only)
 
@@ -63,6 +63,12 @@ sudo go run main.go run /bin/sh -c 'id; hostname; echo yes'
 sudo go run main.go run id
 sudo go run main.go run /bin/echo done
 sudo go run main.go run sh -c 'echo hi'
+```
+
+### Run a binary
+
+```bash
+sudo ./mini-docker-linux-amd64 run /bin/sh
 ```
 
 ### Long-running command
