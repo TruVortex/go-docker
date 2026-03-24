@@ -46,7 +46,7 @@ sudo chroot /tmp/alpine-rootfs /bin/sh -c "apk update && apk add bash"
 ## Build & Run
 
 ```bash
-cd /home/henry/go-docker
+cd /go-docker
 go mod tidy
 ```
 
