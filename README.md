@@ -1,4 +1,4 @@
-# Mini-Docker
+# go-docker
 
 Custom lightweight container runtime (namespace + chroot + cgroups) in pure Go (standard library only)
 
